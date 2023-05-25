@@ -181,6 +181,8 @@ color:var(--hover-color);
 }
 
 .section-hero {
+    background-size: cover;
+
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -194,7 +196,7 @@ color:var(--hover-color);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-size: 1440px;
+    max-width: 1440px;
 
 text-align: center;
 }
