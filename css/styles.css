@@ -10,6 +10,7 @@
     --hover-color:#404BBF;
     --background-section: #F4F4FD;
     --border-color: #E7E9FC;
+
     
 }
 
@@ -362,6 +363,7 @@ padding-bottom: 120px;
 
 .team {
     border-radius: 0px 0px 4px 4px; 
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
 
@@ -388,7 +390,7 @@ padding-bottom: 120px;
     gap: 24px;
 }
 
-.team-icon-back {
+.team-icon-back, .style {
     width: 40px;
     height: 40px;  
     background-color: var(--link-color);
@@ -398,7 +400,13 @@ padding-bottom: 120px;
     justify-content: center;
 }
 
+.icon-fill {
+    fill: var(--background-section) ;
+}
 .team-icon-back:hover {
+    background-color: #404BBF;
+}
+.team-icon-back:focus{
     background-color: #404BBF;
 }
 
