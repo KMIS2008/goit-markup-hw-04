@@ -442,7 +442,9 @@ margin-bottom: 72px;
 }
 
 
-.customer-icon {
+.customer-icon
+
+.customer-flex-icon {
     height: 88px;
     width: 168px;
     border-radius: 4px;
