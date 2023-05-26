@@ -532,15 +532,16 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 
-padding-bottom: 16px;
+margin-bottom: 16px; 
 
 }
 .media-second {
-    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .footer-flex-main {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-flex-second {
