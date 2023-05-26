@@ -562,7 +562,12 @@ margin-bottom: 16px;
 .footer-icon-back:hover {
     background-color: #31D0AA;
 } 
-
+.footer-icon-back:focus {
+    background-color: #31D0AA;
+} 
+.footer-icon-hover {
+    fill: var(--background-section);
+}
 
 
 /* portfolio */
