@@ -10,7 +10,7 @@
     --hover-color:#404BBF;
     --background-section: #F4F4FD;
     --border-color: #E7E9FC;
-
+    --backgraund-icon: #8e8f99;
     
 }
 
@@ -449,23 +449,36 @@ margin-bottom: 72px;
     width: 168px;
     border-radius: 4px;
         
+    color: var(--backgraund-icon); 
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid #8e8f99
 }
 
-.customer-flex-icon:hover, .customer-flex-icon:focus {
+.customer-flex-icon:hover,  {
     border: 1px solid #404BBF;
 }
 
+.customer-flex-icon:focus {
+    border: 1px solid #404BBF;
+    background-color: var(--hover-color);
+
+}
 .icon-hover {
-    fill: #8e8f99;
+    fill: currentColor;
+    /* fill: #8e8f99; */
 }
 
-.customer-icon:hover .icon-hover {
+.icon-hover:hover {
+    color: var(--hover-color);
+}
+/* .customer-icon:hover .icon-hover {
     fill: #404BBF;
-} 
+}  */
+
+
+
 
 /* footer */
 
