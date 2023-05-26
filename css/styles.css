@@ -456,13 +456,13 @@ margin-bottom: 72px;
     border: 1px solid #8e8f99
 }
 
-.customer-flex-icon:hover,  {
-    border: 1px solid #404BBF;
+.customer-flex-icon:hover {
+    border-color: #404bbf;
 }
 
 .customer-flex-icon:focus {
     border: 1px solid #404BBF;
-    background-color: var(--hover-color);
+    color: #404bbf;
 
 }
 .icon-hover {
@@ -471,11 +471,11 @@ margin-bottom: 72px;
 }
 
 .icon-hover:hover {
-    color: var(--hover-color);
+    color: #404bbf;
 }
-/* .customer-icon:hover .icon-hover {
+ .customer-icon:hover .icon-hover {
     fill: #404BBF;
-}  */
+}  
 
 
 
